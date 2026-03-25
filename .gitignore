@@ -1,0 +1,7 @@
+.cache/
+.local/share/Trash
+*.log
+.config/Code/CachedExtensionVSIXs/
+.config/Code/Cache/
+.config/Code/CachedData/
+.config/Code/

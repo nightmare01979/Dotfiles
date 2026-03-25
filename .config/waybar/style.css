@@ -1,0 +1,128 @@
+@import url('/home/nightmare/.cache/wal/colors-waybar.css');
+
+
+* {
+    font-weight: bold;
+    font-family: JetBrainsMono Nerd Font Propo;
+    min-height: 0;
+    color: @color1;
+}
+
+window#waybar {
+    all: unset;
+    color: @color1;
+    font-size: 13px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+}
+/*Reserves space so the bar doesn't "wiggle" when numbers change.*/
+.modules-center {
+    min-width: 150.5px;
+}
+
+tooltip {
+    color: @color7;
+    background-color: @color1;
+}
+
+#clock:hover,
+#bluetooth:hover/*,
+#custom-power:hover,
+#wireplumber:hover*/ {
+    transition: all 0.3s ease;
+    color: @color7;
+}
+
+#workspaces {
+/*    padding: 0px 5px;*/
+}
+
+#workspaces button {
+    all: unset;
+    margin: 0px 4px;
+    padding: 0px;
+    background: @color7;
+    border-radius: 50%;
+    transition: all 0.3s;
+    min-width: 20px;
+}
+
+#workspaces button:hover {
+    background: @color1;
+}
+
+#workspaces button.active {
+    border: none;
+    border-radius: 10px;
+    background: @color1;
+    min-width: 40px;
+}
+
+#workspaces button:hover label,
+#workspaces button.active label {
+    color: @color7;
+}
+
+#workspaces button:hover label,
+#workspaces button.active label {
+    color: @color7;
+}
+
+#group-expand {
+    padding: 0px 5px;
+    transition: all 0.3s ease;
+}
+
+#battery {
+    color: @color7;
+    padding: 0 10px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+#battery:hover {
+    color: @color7;
+}
+
+#custom-expand {
+    padding: 0px 5px;
+    color: @color7;
+    transition: all 0.3s ease;
+}
+
+#workspaces,
+#bluetooth,
+#clock {
+     color: @color7;
+    transition: all 0.3s ease;
+
+    background-color: @background; 
+    border-radius: 15px;       
+    padding: 4px 10px;         
+    margin: 2px 3px;           
+}
+
+#gleft2 {
+/*    padding: 0.1px 9px;*/
+    border-radius: 15px;
+    background-color: @background;
+    margin: 2px 3px;
+}
+
+#bluetooth,
+#wireplumber,
+#custom-power {
+    color: @color7;
+    transition: all 0.3s ease;
+    border-radius: 15px;       
+    padding: 0px 10px;                  
+}
+

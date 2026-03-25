@@ -1,0 +1,1 @@
+{AMD/OLAND (radeonsi, , ACO, DRM 2.51, 6.18.9-arch1-2)/4.5 (Core Profile) Mesa 25.3.5-arch1.1}=SUPPORTED
