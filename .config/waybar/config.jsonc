@@ -35,7 +35,8 @@
         "on-click": "wlogout --buttons-per-row 2",
         "on-click-right": "systemctl lock-session",
         "on-scroll-up": {},    
-        "on-scroll-down": {}   
+        "on-scroll-down": {},
+	"tooltip":false
     },
 
     "clock": {
@@ -46,10 +47,10 @@
 
     "bluetooth": {
         "format": "{}",
-        "format-on": "󰂰",
+        "format-on": "",
         "format-off": "󰂲",
         "format-disabled" : "󰂲",
-        "format-connected" : "{device_alias}  {device_battery_percentage}%",
+        "format-connected" : "󰂰",
         "tooltip-format": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t {device_battery_percentage}%",
@@ -57,4 +58,8 @@
         "on-scroll-up": {},  
         "on-scroll-down": {}  
     }
+
+
+
+// endline
 } 
