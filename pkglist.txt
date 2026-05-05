@@ -1,8 +1,7 @@
-alacritty
-alsa-tools
 alsa-utils
 ani-cli
 arduino-ide-bin
+ascii-image-converter
 auto-cpufreq
 awww
 base
@@ -13,7 +12,7 @@ bluez-utils
 brave-bin
 breeze-icons
 btop
-cava
+cava-git
 cli-visualizer
 cliphist
 cmatrix
@@ -39,9 +38,9 @@ gsfonts
 gst-plugin-pipewire
 gvfs
 gvfs-mtp
-helvum
 htop
 hyprland
+hyprlock
 hyprpicker
 i3-wm
 intel-ucode
@@ -67,6 +66,7 @@ networkmanager
 nim
 niri
 nmap
+notion-app-electron
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
@@ -74,8 +74,11 @@ ntfs-3g
 nwg-displays
 nwg-look
 obs-studio
+obsidian
+onlyoffice-bin
 os-prober
 pacman-contrib
+papirus-folders
 papirus-icon-theme
 pavucontrol
 peaclock
@@ -87,16 +90,18 @@ pipewire-pulse
 polkit-gnome
 polybar
 poppler-glib
-pywal-git
+python-pywal
 qt5-wayland
 qt6-imageformats
 qt6-wayland
 quickshell-git
+rocm-smi-lib
 rofi
 scrcpy
 sddm
 sddm-silent-theme
 slurp
+syncthing
 syntax-highlighting
 thunar
 thunar-archive-plugin
@@ -112,6 +117,7 @@ ventoy-bin
 visual-studio-code-bin
 vulkan-intel
 vulkan-radeon
+vulkan-tools
 waybar
 wev
 wf-recorder

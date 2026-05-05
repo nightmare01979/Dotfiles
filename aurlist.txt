@@ -1,12 +1,16 @@
 ani-cli
 arduino-ide-bin
+ascii-image-converter
 auto-cpufreq
 brave-bin
+cava-git
 cli-visualizer
 legacy-launcher
 mpvpaper-git
+notion-app-electron
+onlyoffice-bin
+papirus-folders
 peaclock
-pywal-git
 quickshell-git
 sddm-silent-theme
 ttf-ms-fonts

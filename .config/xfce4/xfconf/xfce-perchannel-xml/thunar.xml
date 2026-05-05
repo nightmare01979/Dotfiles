@@ -7,7 +7,7 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-separator-position" type="int" value="168"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,132,123,92,92,50,50,1338,50,50,76,50,181"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,132,123,92,92,50,50,464,50,50,76,50,159"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="last-toolbar-items" type="string" value="menu:1,back:1,forward:1,open-parent:1,open-home:1,new-tab:1,new-window:0,toggle-split-view:0,undo:0,redo:0,zoom-out:0,zoom-in:0,zoom-reset:0,view-as-icons:0,view-as-detailed-list:0,view-as-compact-list:0,view-switcher:0,location-bar:1,reload:0,search:1,uca-action-1767164220886793-1:0"/>
   <property name="last-side-pane" type="string" value="THUNAR_SIDEPANE_TYPE_SHORTCUTS"/>
@@ -24,7 +24,10 @@
   <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_SIZE_IN_BYTES,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_LOCATION,THUNAR_COLUMN_GROUP,THUNAR_COLUMN_MIME_TYPE,THUNAR_COLUMN_DATE_CREATED,THUNAR_COLUMN_OWNER,THUNAR_COLUMN_PERMISSIONS,THUNAR_COLUMN_DATE_ACCESSED,THUNAR_COLUMN_RECENCY,THUNAR_COLUMN_DATE_DELETED"/>
   <property name="misc-expandable-folders" type="bool" value="true"/>
   <property name="hidden-bookmarks" type="array">
+    <value type="string" value="file:///home/nightmare/Desktop"/>
+    <value type="string" value="recent:///"/>
     <value type="string" value="network:///"/>
+    <value type="string" value="file:///home/nightmare"/>
   </property>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
   <property name="shortcuts-icon-emblems" type="bool" value="true"/>
@@ -43,4 +46,5 @@
   <property name="misc-change-window-icon" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-image-preview-mode" type="string" value="THUNAR_IMAGE_PREVIEW_MODE_EMBEDDED"/>
+  <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
 </channel>

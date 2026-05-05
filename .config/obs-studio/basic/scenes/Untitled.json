@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936448,
+        "prev_ver": 536936450,
         "name": "Desktop Audio",
         "uuid": "57fd9537-2cb0-4b60-b3bd-e31c656c30f4",
         "id": "pulse_output_capture",
@@ -32,7 +32,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536936448,
+        "prev_ver": 536936450,
         "name": "Mic/Aux",
         "uuid": "054f8cfe-0826-40f4-93f5-f2a62a896b17",
         "id": "pulse_input_capture",
@@ -64,7 +64,7 @@
     },
     "sources": [
         {
-            "prev_ver": 536936448,
+            "prev_ver": 536936450,
             "name": "Screen Capture (PipeWire)",
             "uuid": "53379cf4-b274-4a92-b7e7-f538cd35ef96",
             "id": "pipewire-screen-capture-source",
@@ -90,7 +90,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936448,
+            "prev_ver": 536936450,
             "name": "Scene",
             "uuid": "dd568fde-99f7-4a15-aed3-a943131f0cbe",
             "id": "scene",
@@ -217,7 +217,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -10,
+    "scaling_level": -9,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
