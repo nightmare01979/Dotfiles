@@ -5,9 +5,9 @@ auto-cpufreq
 brave-bin
 cava-git
 cli-visualizer
+hyprland-git
 legacy-launcher
 mpvpaper-git
-notion-app-electron
 onlyoffice-bin
 papirus-folders
 peaclock

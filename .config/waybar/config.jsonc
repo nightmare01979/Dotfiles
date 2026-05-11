@@ -10,8 +10,10 @@
 
     "hyprland/workspaces": {
         "persistent-workspaces": {
-            "*": [ 1,2,3,4,5 ]
-        }
+            "*": [ 1,2,3 ]
+        },
+	"format": "{name}",
+	"on-click": "activate"
     },
 
     "group/gleft2" : {
