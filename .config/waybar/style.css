@@ -12,7 +12,7 @@ window#waybar {
     all: unset;
     color: @color1;
     font-size: 13px;
-/*    background-color: rgba(20, 20, 30, 0.6);*/
+    background-color: @color4;
 }
 
 .modules-left,
@@ -99,8 +99,8 @@ tooltip {
     color: @color7;
     transition: all 0.3s ease;
 
-    background-color: @background; 
-    border-radius: 15px;       
+    background-color: @color5;
+    border-radius: 7px;       
     padding: 4px 10px;         
     margin: 2px 3px;           
 }

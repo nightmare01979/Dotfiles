@@ -5,7 +5,6 @@ auto-cpufreq
 brave-bin
 cava-git
 cli-visualizer
-hyprland-git
 legacy-launcher
 mpvpaper-git
 onlyoffice-bin

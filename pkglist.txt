@@ -39,7 +39,7 @@ gst-plugin-pipewire
 gvfs
 gvfs-mtp
 htop
-hyprland-git
+hyprland
 hyprlock
 hyprpicker
 i3-wm
