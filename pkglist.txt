@@ -39,9 +39,12 @@ gst-plugin-pipewire
 gvfs
 gvfs-mtp
 htop
+hyprgraphics
 hyprland
+hyprlang
 hyprlock
 hyprpicker
+hyprutils
 i3-wm
 intel-ucode
 jdk-openjdk
