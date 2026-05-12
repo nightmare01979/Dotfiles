@@ -35,7 +35,7 @@
     "custom/power": {
         "format": "",
         "on-click": "wlogout --buttons-per-row 2",
-        "on-click-right": "systemctl lock-session",
+        "on-click-right": "exec hyprlock",
         "on-scroll-up": {},    
         "on-scroll-down": {},
 	"tooltip":false
@@ -56,7 +56,7 @@
         "tooltip-format": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t {device_battery_percentage}%",
-        "on-click": "exec blueman-manager",
+        "on-click": "rfkill toggle bluetooth",
         "on-scroll-up": {},  
         "on-scroll-down": {}  
     }
