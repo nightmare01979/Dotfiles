@@ -28,7 +28,7 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 2,
+        "monitoring_type": 0,
         "private_settings": {}
     },
     "AuxAudioDevice1": {
@@ -59,14 +59,14 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 2,
+        "monitoring_type": 0,
         "private_settings": {}
     },
     "sources": [
         {
             "prev_ver": 536936450,
             "name": "Screen Capture (PipeWire)",
-            "uuid": "48425388-47f8-4436-bb04-645cbe10b9fa",
+            "uuid": "21ce519b-e021-4e04-946d-0fe29039b29d",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
@@ -96,12 +96,12 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 11,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Screen Capture (PipeWire)",
-                        "source_uuid": "48425388-47f8-4436-bb04-645cbe10b9fa",
+                        "source_uuid": "21ce519b-e021-4e04-946d-0fe29039b29d",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -117,7 +117,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 5,
+                        "id": 10,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -169,8 +169,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -217,7 +217,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -9,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {

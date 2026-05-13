@@ -1,4 +1,3 @@
-alacritty
 alsa-utils
 ani-cli
 arduino-ide-bin
@@ -39,6 +38,7 @@ gsfonts
 gst-plugin-pipewire
 gvfs
 gvfs-mtp
+helvum
 htop
 hyprgraphics
 hyprland
