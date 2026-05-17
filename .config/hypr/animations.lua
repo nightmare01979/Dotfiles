@@ -23,3 +23,8 @@ hl.animation({ leaf = "fadeLayersIn",  enabled = true,  speed = 1.79, bezier = "
 hl.animation({ leaf = "fadeLayersOut", enabled = true,  speed = 1.39, bezier = "almostLinear" })
 hl.animation({ leaf = "workspaces",    enabled = true,  speed = 8,    bezier = "easeOutQuint", style = "slide" })
 hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
+
+-- Layer Rules
+hl.animation({ leaf = "layersIn",  enabled = true, speed = 8, bezier = "easeOutQuint",  style = "slide" })
+hl.animation({ leaf = "layersOut", enabled = true, speed = 8, bezier = "easeOutQuint", style = "slide" })
+hl.layer_rule({ match = { namespace = "rofi" }, animation = "slide" })

@@ -15,7 +15,7 @@ sddm-silent-theme
 ttf-ms-fonts
 tty-clock
 ventoy-bin
-visual-studio-code-bin
+vscodium-bin
 wlogout
 wlogout-debug
 woeusb
