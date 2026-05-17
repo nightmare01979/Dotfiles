@@ -1,5 +1,6 @@
 alsa-utils
 ani-cli
+archinstall
 arduino-ide-bin
 ascii-image-converter
 auto-cpufreq
@@ -32,6 +33,7 @@ git
 git-lfs
 gnome-disk-utility
 gnome-themes-extra
+gparted
 grim
 grub
 gsfonts
