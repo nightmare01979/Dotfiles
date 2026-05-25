@@ -1,6 +1,7 @@
+alsa-tools
 alsa-utils
 ani-cli
-archinstall
+anki
 arduino-ide-bin
 ascii-image-converter
 auto-cpufreq
@@ -61,6 +62,7 @@ libpulse
 libxcrypt-compat
 linux
 linux-firmware
+lutris
 mesa-utils
 mpvpaper-git
 mtools

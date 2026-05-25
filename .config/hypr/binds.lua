@@ -18,7 +18,7 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen(0))
 hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
 hl.bind(mainMod .. " + P", hl.dsp.window.pin())
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("hyprctl reload"))
-hl.bind(mainMod .. " + CTRL + L", hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + ESCAPE ", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + CTRL + SHIFT + B", hl.dsp.exec_cmd("shfiles/backup-dotfiles.sh"))
 hl.bind(mainMod .. " + V ", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
 hl.bind(mainMod .. " + G", function()
@@ -54,6 +54,7 @@ hl.bind(mainMod .. " + T", function()
     })
   end
 end)
+hl.bind(mainMod .. " + SHIFT + W ", hl.dsp.exec_cmd("wal -i wallpapers/"))
 
 -- Launch Apps ==========
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("thunar"))
@@ -108,3 +109,5 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
+
+

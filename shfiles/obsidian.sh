@@ -1,11 +1,7 @@
 #!/bin/bash
-
-# Start Syncthing in background
 syncthing --no-browser &
 ST_PID=$!
 
-# Open Obsidian
 obsidian
-
-# Kill Syncthing after Obsidian closes
-kill $ST_PID
+# Obsidian closed — kill syncthing
+kill $ST_PID 2>/dev/null

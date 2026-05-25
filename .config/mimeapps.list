@@ -48,3 +48,4 @@ application/vnd.adobe.flash.movie=brave-browser.desktop;zen.desktop;
 video/vnd.avi=mpv.desktop;vlc.desktop;org.kde.kdenlive.desktop;
 image/png=zen.desktop;
 application/xml=zen.desktop;
+application/zip=org.gnome.FileRoller.desktop;

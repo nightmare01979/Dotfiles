@@ -1,7 +1,4 @@
 @import url('/home/nightmare/.cache/wal/colors-waybar.css');
-
-/* General Settings */
-
 * {
     font-weight: bold;
     font-family: JetBrainsMono Nerd Font Propo;
@@ -18,34 +15,30 @@
     margin-right: 2px;
     padding: 15px;
 }
-	/*Reserves space so the bar doesn't "wiggle" when numbers change.*/
+	
 .modules-center {
-    min-width: 149.5px;
-}
-tooltip {
-    color: @color7;
-    background-color: @background;
+    min-width: 149.5px;/*Reserves space so the bar doesn't "wiggle" when numbers change.*/
 }
 
 
-/* Waybar All Settings */
+
 window#waybar {
     all: unset;
     color: @color1;
     font-size: 13px;
-/*    background-color: rgba(20, 20, 30, 0.6);*/
+    border-radius: 10px;
+/*    background: alpha(@background, 0.4);*/
 }
 
-/* Modules */
 #workspaces,
 #clock, 
 #gleft2 {
     color: @color7;
     transition: all 0.3s ease;
     background-color: @background; 
-    border-radius: 15px;       
+    border-radius: 10px;       
     padding: 4px 10px;         
-    margin: 2px 3px;           
+    margin: 2px 3px;
 }
 /* gleft2 */
 #bluetooth,
@@ -55,10 +48,6 @@ window#waybar {
     transition: all 0.3s ease;
     border-radius: 15px;       
     padding: 0px 10px;                  
-}
-/* ########### WORKSPACE ############ */
-#workspaces {
-/*    padding: 0px 5px;*/
 }
 #workspaces button {
     all: unset;
@@ -70,7 +59,7 @@ window#waybar {
     min-width: 20px;
 }
 #workspaces button:hover {
-    background: @color1;
+    background: @color2;
 }
 #workspaces button.active {
     border: none;
@@ -78,32 +67,11 @@ window#waybar {
     background: @color1;
     min-width: 40px;
 }
-#workspaces button:hover label,
-#workspaces button.active label {
-    color: @color7;
-}
-#workspaces button:hover label,
 #workspaces button.active label {
     color: @color7;
 }
 
-/* Expands */
-#group-expand {
-    padding: 0px 5px;
-    transition: all 0.3s ease;
-}
-#custom-expand {
-    padding: 0px 5px;
+tooltip {
     color: @color7;
-    transition: all 0.3s ease;
+    background-color: @background;
 }
-
-
-#clock:hover,
-#bluetooth:hover/*,
-#custom-power:hover,
-#wireplumber:hover*/ {
-    transition: all 0.3s ease;
-/*    color: @color7;*/
-}
-

@@ -4,15 +4,12 @@
     "on-scroll-up": "true",
     "on-scroll-down": "true",
     "reload_style_on_change": true,
-    "width": 1800,
+    "width": 1900,
     "modules-left": ["clock"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["group/gleft2"],
 
     "hyprland/workspaces": {
-        "persistent-workspaces": {
-            "*": [ 1,2,3 ]
-        },
 	"format": "{name}",
 	"on-click": "activate"
     },
@@ -45,7 +42,16 @@
     "clock": {
         "format": "{:%I:%M %p}",
         "interval": 1,
-        "tooltip":false
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+	"calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<b>{}</b>",
+                "days": "<span color='#acb0d0'><b>{}</b></span>",
+                "today": "<span color='#41a6b5'><b><u>{}</u></b></span>"
+		    }
+	}
+
     },
 
     "bluetooth": {
@@ -62,8 +68,4 @@
         "on-scroll-up": {},  
         "on-scroll-down": {}  
     }
-
-
-
-// endline
-} 
+}
