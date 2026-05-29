@@ -4,7 +4,7 @@
     "on-scroll-up": "true",
     "on-scroll-down": "true",
     "reload_style_on_change": true,
-    "width": 1900,
+//    "width": 1900,
     "modules-left": ["clock"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["group/gleft2"],

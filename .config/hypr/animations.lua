@@ -26,3 +26,21 @@ hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "
 
 -- Layer Rules
 hl.layer_rule({ match = { namespace = "rofi" }, animation = "slide" })
+
+-- Obsidian
+hl.window_rule({
+    match    = { class = "obsidian" },
+    workspace = "special:obsidian silent",
+    float    = true,
+    size     = "600 1023",
+    move     = "1307 43",
+})
+hl.config({
+    animations = {
+        { name = "specialWorkspace", 
+	  enable = true, speed = 5, 
+	  curve = "default", 
+	  style = "slide" 
+  	}
+    }
+})

@@ -55,6 +55,9 @@ hl.bind(mainMod .. " + T", function()
   end
 end)
 hl.bind(mainMod .. " + SHIFT + W ", hl.dsp.exec_cmd("wal -i wallpapers/"))
+hl.bind(mainMod .. " + N", hl.dsp.workspace.toggle_special("obsidian"))
+hl.bind(mainMod .. " + ALT + W", hl.dsp.exec_cmd("pkill waybar && waybar -c .config/waybar/waybarold/config.jsonc -s .config/waybar/waybarold/style.css"))
+
 
 -- Launch Apps ==========
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("thunar"))

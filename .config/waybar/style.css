@@ -9,25 +9,22 @@
 .modules-left,
 .modules-center,
 .modules-right {
-    margin-top: -15px;
-    margin-bottom: -15px;
+/*    margin-top: -15px;
+    margin-bottom: -15px;*/
     margin-left: 2px;
     margin-right: 2px;
-    padding: 15px;
+/*    padding: 15px;*/
 }
-	
-.modules-center {
-    min-width: 149.5px;/*Reserves space so the bar doesn't "wiggle" when numbers change.*/
-}
-
 
 
 window#waybar {
     all: unset;
     color: @color1;
     font-size: 13px;
-    border-radius: 10px;
+/*    border-radius: 10px;*/
 /*    background: alpha(@background, 0.4);*/
+    background: @background;
+/*    border: 1px solid @cursor;*/
 }
 
 #workspaces,
@@ -35,10 +32,10 @@ window#waybar {
 #gleft2 {
     color: @color7;
     transition: all 0.3s ease;
-    background-color: @background; 
+/*    background-color: @background;*/ 
     border-radius: 10px;       
     padding: 4px 10px;         
-    margin: 2px 3px;
+    margin: 0px 3px;
 }
 /* gleft2 */
 #bluetooth,
@@ -53,8 +50,8 @@ window#waybar {
     all: unset;
     margin: 0px 4px;
     padding: 0px;
-    background: @color7;
-    border-radius: 50%;
+/*    background: @color7;*/
+/*    border-radius: 50%;*/
     transition: all 0.3s;
     min-width: 20px;
 }
@@ -63,9 +60,9 @@ window#waybar {
 }
 #workspaces button.active {
     border: none;
-    border-radius: 10px;
+/*    border-radius: 10px;*/
     background: @color1;
-    min-width: 40px;
+/*    min-width: 40px;*/
 }
 #workspaces button.active label {
     color: @color7;
