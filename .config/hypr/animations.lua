@@ -37,10 +37,12 @@ hl.window_rule({
 })
 hl.config({
     animations = {
-        { name = "specialWorkspace", 
+        { name = "special:obsidian silent", 
 	  enable = true, speed = 5, 
 	  curve = "default", 
 	  style = "slide" 
   	}
     }
 })
+--         { name = "specialWorkspace", 
+
