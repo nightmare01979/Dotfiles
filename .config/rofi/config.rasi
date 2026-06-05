@@ -8,6 +8,7 @@ configuration {
 
 /* 2. Map the variables so the template knows what bg0, bg1, etc. are */
 * {
+    font: "Roboto 12";
     /* Backgrounds */
     bg0: @background;
     bg1: @background;                 /* Input bar background */
@@ -20,7 +21,8 @@ configuration {
     fg2: @foreground;
     fg3: @foreground;                  /* Placeholder text */
 
-    font: "JetBrainsMono Nerd Fonts Propo 12";
+  
+    /*font: "Roboto 12";*/
 
     background-color:   transparent;
     text-color:         @fg0;

@@ -1,12 +1,3 @@
-2026/05/31-21:06:12.382 5af2 Reusing MANIFEST /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/31-21:06:12.382 5af2 Recovering log #44
-2026/05/31-21:06:12.456 5af2 Reusing old log /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000044.log 
-2026/05/31-21:18:57.976 5ba7 Level-0 table #49: started
-2026/05/31-21:18:58.136 5ba7 Level-0 table #49: 1375430 bytes OK
-2026/05/31-21:18:58.138 5ba7 Delete type=0 #44
-2026/05/31-21:26:13.347 5ba7 Compacting 1@1 + 1@2 files
-2026/05/31-21:26:13.496 5ba7 Generated table #50@1: 4712 keys, 392546 bytes
-2026/05/31-21:26:13.497 5ba7 Compacted 1@1 + 1@2 files => 392546 bytes
-2026/05/31-21:26:13.498 5ba7 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/31-21:26:13.499 5ba7 Delete type=2 #46
-2026/05/31-21:26:13.499 5ba7 Delete type=2 #49
+2026/06/05-15:39:08.350 6766 Reusing MANIFEST /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/05-15:39:08.350 6766 Recovering log #48
+2026/06/05-15:39:08.454 6766 Reusing old log /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000048.log 

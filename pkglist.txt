@@ -114,6 +114,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-ms-fonts
 ttf-nerd-fonts-symbols
