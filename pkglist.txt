@@ -2,8 +2,10 @@ alsa-tools
 alsa-utils
 ani-cli
 anki
+arc-gtk-theme
 arduino-ide-bin
 ascii-image-converter
+audacious
 auto-cpufreq
 awww
 base
@@ -13,6 +15,7 @@ bluez
 bluez-utils
 brave-bin
 breeze-icons
+brother-dcpt420w
 btop
 cava-git
 cli-visualizer
@@ -26,6 +29,7 @@ fastfetch
 feh
 ffmpegthumbnailer
 file-roller
+firefox
 flatpak
 foot
 freecad
@@ -41,6 +45,7 @@ gsfonts
 gst-plugin-pipewire
 gvfs
 gvfs-mtp
+helium-browser-bin
 helvum
 htop
 hyprgraphics
@@ -52,7 +57,6 @@ hyprutils
 i3-wm
 intel-ucode
 jdk-openjdk
-jq
 kdenlive
 kitty
 legacy-launcher
@@ -62,7 +66,10 @@ libpulse
 libxcrypt-compat
 linux
 linux-firmware
+localsend-bin
 lutris
+mangohud
+materia-gtk-theme
 mesa-utils
 mpvpaper-git
 mtools
@@ -90,6 +97,7 @@ papirus-icon-theme
 pavucontrol
 peaclock
 picom
+pipes.sh
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -97,6 +105,7 @@ pipewire-pulse
 polkit-gnome
 polybar
 poppler-glib
+prismlauncher
 python-pywal
 qt5-wayland
 qt6-imageformats
@@ -107,6 +116,7 @@ rofi
 scrcpy
 sddm
 sddm-silent-theme
+sl
 slurp
 syncthing
 syntax-highlighting

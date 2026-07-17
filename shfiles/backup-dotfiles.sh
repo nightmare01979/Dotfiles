@@ -2,6 +2,11 @@
 set -e
 DOTFILES="$HOME/dotfiles"
 
+if [ ! -d "$DOTFILES/.git" ]; then
+    echo "📥 Cloning dotfiles repo..."
+    git clone git@github.com:nightmare01979/Dotfiles.git "$DOTFILES"
+fi
+
 notify() {
     hyprctl notify 1 4000 "rgb(cdd6f4)" "$1"
 }
@@ -21,7 +26,27 @@ pacman -Qqem > "$DOTFILES/aurlist.txt"
 notify_persistent "Copying .config..."
 rm -rf "$DOTFILES/.config"
 mkdir "$DOTFILES/.config"
-cp -rv "$HOME/.config" "$DOTFILES/"
+cp -rv "$HOME/.config/hypr" "$DOTFILES/"
+cp -rv "$HOME/.config/waybar" "$DOTFILES/"
+cp -rv "$HOME/.config/rofi" "$DOTFILES/"
+cp -rv "$HOME/.config/kitty" "$DOTFILES/"
+cp -rv "$HOME/.config/wal" "$DOTFILES/"
+cp -rv "$HOME/.config/gtk-3.0" "$DOTFILES/"
+cp -rv "$HOME/.config/gtk-4.0" "$DOTFILES/"
+cp -rv "$HOME/.config/Thunar" "$DOTFILES/"
+cp -rv "$HOME/.config/nvim" "$DOTFILES/"
+cp -rv "$HOME/.config/fastfetch" "$DOTFILES/"
+cp -rv "$HOME/.config/btop" "$DOTFILES/"
+cp -rv "$HOME/.config/cava" "$DOTFILES/"
+cp -rv "$HOME/.config/systemd" "$DOTFILES/"
+cp -rv "$HOME/.config/vis" "$DOTFILES/"
+cp -rv "$HOME/.config/obsidian" "$DOTFILES/"
+cp -rv "$HOME/.config/i3" "$DOTFILES/"
+cp -rv "$HOME/.config/picom" "$DOTFILES/"
+cp -rv "$HOME/.config/polybar" "$DOTFILES/"
+cp -rv "$HOME/.config/wlogout" "$DOTFILES/"
+cp -rv "$HOME/.zshrc" "$DOTFILES/"
+cp -rv "$HOME/wallpapers" "$DOTFILES/"
 cp -rv "$HOME/shfiles" "$DOTFILES/"
 hyprctl dismissnotify 1  # kill it once done
 
@@ -43,6 +68,7 @@ if ! git diff --cached --quiet; then
     git commit -m "backup $(date '+%Y-%m-%d %H:%M')"
     git push
     hyprctl dismissnotify 1
+    rm -r dotfiles
     hyprctl notify 0 5000 "rgb(a6e3a1)" "Backup complete!"
 else
     hyprctl dismissnotify 1

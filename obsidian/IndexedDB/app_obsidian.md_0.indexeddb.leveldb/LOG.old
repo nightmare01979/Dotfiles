@@ -1,0 +1,12 @@
+2026/07/16-16:07:11.805 7ff Reusing MANIFEST /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/16-16:07:11.806 7ff Recovering log #95
+2026/07/16-16:07:11.922 7ff Reusing old log /home/nightmare/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000095.log 
+2026/07/16-16:32:44.648 7ff Level-0 table #100: started
+2026/07/16-16:32:44.709 7ff Level-0 table #100: 2098176 bytes OK
+2026/07/16-16:32:44.712 7ff Delete type=0 #95
+2026/07/16-16:56:12.687 7ff Compacting 1@1 + 1@2 files
+2026/07/16-16:56:12.750 7ff Generated table #101@1: 5823 keys, 553620 bytes
+2026/07/16-16:56:12.750 7ff Compacted 1@1 + 1@2 files => 553620 bytes
+2026/07/16-16:56:12.752 7ff compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/16-16:56:12.753 7ff Delete type=2 #100
+2026/07/16-16:56:12.753 7ff Delete type=2 #97
