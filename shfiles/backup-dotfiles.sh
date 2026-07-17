@@ -68,7 +68,7 @@ if ! git diff --cached --quiet; then
     git commit -m "backup $(date '+%Y-%m-%d %H:%M')"
     git push
     hyprctl dismissnotify 1
-    rm -r dotfiles
+#    rm -r dotfiles
     hyprctl notify 0 5000 "rgb(a6e3a1)" "Backup complete!"
 else
     hyprctl dismissnotify 1
