@@ -3,7 +3,7 @@ arc-gtk-theme
 arduino-ide-bin
 ascii-image-converter
 auto-cpufreq
-brave-bin
+brave-origin-bin
 brother-dcpt420w
 cava-git
 cli-visualizer

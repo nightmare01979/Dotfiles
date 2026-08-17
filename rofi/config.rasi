@@ -37,7 +37,9 @@ window {
     location:       north;
     y-offset:       calc(50% - 176px);
     width:          480;
-    border-radius:  24px;
+    border-radius:  1px;
+   /* border-radius:  24px*/
+
 
     background-color:   @bg0;
 
@@ -45,7 +47,7 @@ window {
 }
 
 mainbox {
-    padding:    12px;
+    padding:    0px;
 }
 
 inputbar {
@@ -53,7 +55,8 @@ inputbar {
     border-color:       @bg3;
 
     border:         2px;
-    border-radius:  16px;
+    border-radius:  1px;
+    /*border-radius:  16px;*/
 
     padding:    8px 16px;
     spacing:    8px;
@@ -71,7 +74,8 @@ entry {
 
 message {
     margin:             12px 0 0;
-    border-radius:      16px;
+    border-radius:      1px;
+    /*border-radius:      16px;*/
     border-color:       @bg2;
     background-color:   @bg2;
 }
@@ -93,7 +97,7 @@ listview {
 element {
     padding:        8px 16px;
     spacing:        8px;
-    border-radius:  16px;
+    border-radius:  1px;
 }
 
 element normal active {

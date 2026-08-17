@@ -68,12 +68,17 @@
         "on-scroll-up": {},  
         "on-scroll-down": {}  
     },
-
+    
     "custom/timer": {
-  "exec": "~/.config/waybar/scripts/timer.sh",
-  "interval": 1,
-  "on-click": "date --date='3 hours' +%s > /tmp/waybar_timer",
-  "on-click-right": "rm -f /tmp/waybar_timer",
-  "tooltip": false
-     }
+    "exec": "~/.config/waybar/scripts/waybar-timer.sh status",
+    "return-type": "json",
+    "format": "{}",
+    "interval": 1,
+    "on-click": "~/.config/waybar/scripts/waybar-timer.sh click",
+    "on-click-middle": "~/.config/waybar/scripts/waybar-timer.sh toggle-step",
+    "on-click-right": "~/.config/waybar/scripts/waybar-timer.sh cancel",
+    "on-scroll-up": "~/.config/waybar/scripts/waybar-timer.sh scroll-up",
+    "on-scroll-down": "~/.config/waybar/scripts/waybar-timer.sh scroll-down"
+	} 
+
 }

@@ -15,7 +15,14 @@
     margin-right: 2px;
 /*    padding: 15px;*/
 }
-
+/* Timer Blinking */
+#custom-timer.alarm {
+    color: #f38ba8;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    50% { opacity: 0.3; }
+}
 
 window#waybar {
     all: unset;
@@ -29,7 +36,8 @@ window#waybar {
 
 #workspaces,
 #clock, 
-#gleft2 {
+#gleft2,
+#custom-timer {
     color: @color7;
     transition: all 0.3s ease;
 /*    background-color: @background;*/ 
