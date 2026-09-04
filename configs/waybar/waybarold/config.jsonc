@@ -1,0 +1,71 @@
+{
+    "layer": "top",
+    "position": "top",
+    "on-scroll-up": "true",
+    "on-scroll-down": "true",
+    "reload_style_on_change": true,
+    "width": 1900,
+    "modules-left": ["clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["group/gleft2"],
+
+    "hyprland/workspaces": {
+	"format": "{name}",
+	"on-click": "activate"
+    },
+
+    "group/gleft2" : {
+        "orientation": "horizontal",
+        "modules" : [
+            "wireplumber","bluetooth","custom/power"
+        ],
+        "on-scroll-up": {},     
+        "on-scroll-down": {}  
+    }, 
+
+    "wireplumber":{
+        "format":" {volume}%",
+        "format-muted":" {volume}%",
+        "tooltip":false,
+        "on-click":"wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+
+    "custom/power": {
+        "format": "",
+        "on-click": "wlogout --buttons-per-row 2",
+        "on-click-right": "systemctl lock-session",
+        "on-scroll-up": {},    
+        "on-scroll-down": {},
+	"tooltip":false
+    },
+
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "interval": 1,
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+	"calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<b>{}</b>",
+                "days": "<span color='#acb0d0'><b>{}</b></span>",
+                "today": "<span color='#41a6b5'><b><u>{}</u></b></span>"
+		    }
+	}
+
+    },
+
+    "bluetooth": {
+        "format": "{}",
+        "format-on": "",
+        "format-off": "󰂲",
+        "format-disabled" : "󰂲",
+        "format-connected" : "󰂰",
+        "tooltip-format": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t {device_battery_percentage}%",
+        "on-click": "rfkill toggle bluetooth",
+	"on-click-right": "exec blueman-manager",
+        "on-scroll-up": {},  
+        "on-scroll-down": {}  
+    }
+}
