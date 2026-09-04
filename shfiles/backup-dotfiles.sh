@@ -51,17 +51,6 @@ cp -rv "$HOME/wallpapers" "$DOTFILES/"
 cp -rv "$HOME/shfiles" "$DOTFILES/"
 hyprctl dismissnotify 1  # kill it once done
 
-notify "Cleaning junk files..."
-rm -rf "$DOTFILES/.config/Code"
-rm -rf "$DOTFILES"/.config/*cache*
-rm -rf "$DOTFILES"/.config/*Cache*
-rm -rf "$DOTFILES/.config/Cache"
-rm -rf "$DOTFILES/.config/CachedData"
-rm -rf "$DOTFILES/.config/GPUCache"
-rm -rf "$DOTFILES/.config/logs"
-rm -rf "$DOTFILES/.config/BraveSoftware"
-find "$DOTFILES/.config" -type f -name "*.log" -delete
-
 notify_persistent "Committing and pushing..."
 cd "$DOTFILES"
 git add .
