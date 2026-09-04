@@ -21,7 +21,7 @@ hl.animation({ leaf = "layersIn",      enabled = true,  speed = 8,    bezier = "
 hl.animation({ leaf = "layersOut",     enabled = true,  speed = 8,    bezier = "linear",       style = "popin" })
 hl.animation({ leaf = "fadeLayersIn",  enabled = true,  speed = 1.79, bezier = "almostLinear" })
 hl.animation({ leaf = "fadeLayersOut", enabled = true,  speed = 1.39, bezier = "almostLinear" })
-hl.animation({ leaf = "workspaces",    enabled = true,  speed = 8,    bezier = "easeOutQuint", style = "slide" })
+hl.animation({ leaf = "workspaces",    enabled = true,  speed = 8,    bezier = "easeOutQuint", style = "slidevert" })
 hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
 
 -- Layer Rules

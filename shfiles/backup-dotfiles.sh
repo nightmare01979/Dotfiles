@@ -24,8 +24,8 @@ pacman -Qqem > "$DOTFILES/aurlist.txt"
 
 # persistent notif for the slow copy step
 notify_persistent "Copying .config..."
-rm -rf "$DOTFILES/.config"
-mkdir "$DOTFILES/.config"
+rm -rf "$DOTFILES/configs"
+mkdir "$DOTFILES/configs"
 cp -rv "$HOME/.config/hypr" "$DOTFILES/configs"
 cp -rv "$HOME/.config/waybar" "$DOTFILES/configs"
 cp -rv "$HOME/.config/rofi" "$DOTFILES/configs"
