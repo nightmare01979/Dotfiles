@@ -25,6 +25,8 @@ hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("hyprctl reload"))
 hl.bind(mainMod .. " + ESCAPE ", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + CTRL + SHIFT + B", hl.dsp.exec_cmd("shfiles/backup-dotfiles.sh"))
 hl.bind(mainMod .. " + V ", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
+hl.bind(mainMod .. " + PERIOD", hl.dsp.layout("move +col"))  -- Move right
+hl.bind(mainMod .. " + COMMA",  hl.dsp.layout("move -col"))  -- Move left
 hl.bind(mainMod .. " + G", function()
   hl.config({
     general = {
@@ -89,6 +91,8 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
+hl.bind(mainMod .. " + W", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind(mainMod .. " + S", hl.dsp.focus({ workspace = "e-1" }))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + X",         hl.dsp.workspace.toggle_special("magic"))

@@ -9,5 +9,4 @@ require("configs.layout")
 require("configs.misc")
 require("configs.input")
 require("configs.windowrule")
-
-
+require("configs.plugins")

@@ -15,6 +15,7 @@ onlyoffice-bin
 papirus-folders
 peaclock
 pipes.sh
+python-pywal
 quickshell-git
 sddm-silent-theme
 ttf-ms-fonts

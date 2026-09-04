@@ -30,7 +30,6 @@ fastfetch
 feh
 ffmpegthumbnailer
 file-roller
-firefox
 flatpak
 foot
 freecad
@@ -96,6 +95,7 @@ obs-studio
 obsidian
 onlyoffice-bin
 opencl-mesa
+opencode
 os-prober
 pacman-contrib
 papirus-folders
@@ -112,11 +112,13 @@ polkit-gnome
 polybar
 poppler-glib
 prismlauncher
+python-pipx
 python-pywal
 qt5-wayland
 qt6-imageformats
 qt6-wayland
 quickshell-git
+radeontop
 rocm-smi-lib
 rofi
 scrcpy
@@ -130,6 +132,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+torbrowser-launcher
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-ms-fonts
@@ -158,6 +161,7 @@ wmctrl
 woeusb
 woff2-font-awesome
 wofi
+xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xf86-video-amdgpu
